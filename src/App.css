@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    height: 100vh;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex.space-between {
+    justify-content: space-between;
+}
+button {
+    padding: 5px 10px;
+    border: 1px solid;
+}
