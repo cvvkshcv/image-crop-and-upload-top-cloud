@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/image-crop-and-upload-top-cloud/static/css/main.d89c4845.chunk.css",
+    "main.js": "/image-crop-and-upload-top-cloud/static/js/main.032f121a.chunk.js",
+    "main.js.map": "/image-crop-and-upload-top-cloud/static/js/main.032f121a.chunk.js.map",
+    "runtime-main.js": "/image-crop-and-upload-top-cloud/static/js/runtime-main.5b53dbc5.js",
+    "runtime-main.js.map": "/image-crop-and-upload-top-cloud/static/js/runtime-main.5b53dbc5.js.map",
+    "static/css/2.cbeaa07e.chunk.css": "/image-crop-and-upload-top-cloud/static/css/2.cbeaa07e.chunk.css",
+    "static/js/2.c6abe6eb.chunk.js": "/image-crop-and-upload-top-cloud/static/js/2.c6abe6eb.chunk.js",
+    "static/js/2.c6abe6eb.chunk.js.map": "/image-crop-and-upload-top-cloud/static/js/2.c6abe6eb.chunk.js.map",
+    "index.html": "/image-crop-and-upload-top-cloud/index.html",
+    "precache-manifest.2f597f86dcd60e19421feb1873cd4013.js": "/image-crop-and-upload-top-cloud/precache-manifest.2f597f86dcd60e19421feb1873cd4013.js",
+    "service-worker.js": "/image-crop-and-upload-top-cloud/service-worker.js",
+    "static/css/2.cbeaa07e.chunk.css.map": "/image-crop-and-upload-top-cloud/static/css/2.cbeaa07e.chunk.css.map",
+    "static/css/main.d89c4845.chunk.css.map": "/image-crop-and-upload-top-cloud/static/css/main.d89c4845.chunk.css.map",
+    "static/js/2.c6abe6eb.chunk.js.LICENSE.txt": "/image-crop-and-upload-top-cloud/static/js/2.c6abe6eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b53dbc5.js",
+    "static/css/2.cbeaa07e.chunk.css",
+    "static/js/2.c6abe6eb.chunk.js",
+    "static/css/main.d89c4845.chunk.css",
+    "static/js/main.032f121a.chunk.js"
+  ]
+}
