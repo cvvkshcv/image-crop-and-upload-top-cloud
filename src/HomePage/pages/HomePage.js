@@ -123,9 +123,14 @@ const HomePage = () => {
     }
 
     const handleChange = (crop, pixelCrop) => {
-      const newState = cropConfig.map((config, i) => (i === currentCropStep) ? crop : config)
+      const newState = cropConfig.map((config, i) => (i === currentCropStep) ? {...config, ...crop} : config);
       setCropConfig(newState);
       setPrevImg([]);
+    }
+
+    const resetToRecommendedSize = () => {
+      const newState = cropConfig.map((config, i) => (i === currentCropStep) ? {...config, x: 0, y: 0, height: config.recommendedHeight, width: config.recommendedWidth} : config);
+      setCropConfig(newState);
     }
 
     const cropNavigation = (
@@ -136,7 +141,9 @@ const HomePage = () => {
           {' '}
           {cropConfig[currentCropStep].cropType} | Recommended resolution : {cropConfig[currentCropStep].recommendedWidth} x {cropConfig[currentCropStep].recommendedHeight}
           {' '}
-          <button onClick={preview}>Preview all</button>
+          <button onClick={resetToRecommendedSize}>Reset to Recommended resolution</button>
+          {' '}
+          <button onClick={preview}>Preview all to upload</button>
         </div>
         <button disabled={currentCropStep === cropConfig.length - 1} onClick={ () => moveStep('next') }>Next</button>
       </div>
