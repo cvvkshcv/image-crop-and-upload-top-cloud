@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/image-crop-and-upload-top-cloud/precache-manifest.2f597f86dcd60e19421feb1873cd4013.js"
+  "/image-crop-and-upload-top-cloud/precache-manifest.0eac547ba4e8ef7425c197e58e9dd831.js"
 );
 
 self.addEventListener('message', (event) => {
